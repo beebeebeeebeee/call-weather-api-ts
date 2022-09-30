@@ -16,12 +16,6 @@ const 線上: AxiosInstance & Partial<{
 線上.獲取 = 線上.get
 const 紀錄 = console.log;
 
-declare global {
-    interface Array<T> {
-        尋找: Array<T>['find']
-    }
-}
-
 const 政府天氣應用程式介面 = 'https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en'
 const 目標區域 = "Hong Kong and Kowloon"
 const 目標地區 = "Wan Chai"
