@@ -1,5 +1,5 @@
 import { AxiosResponse } from "axios";
-import { 線上返回中文格式 } from "../格式";
+import { 線上返回中文格式 } from "格式";
 
 export function 線上數據傳輸對象<T = any, D = any>(原對象: AxiosResponse<T, D>): 線上返回中文格式<T, D> {
     const 返回對象: 線上返回中文格式 = {

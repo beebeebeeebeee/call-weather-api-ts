@@ -2,12 +2,12 @@
   "name": "call-weather-api-ts",
   "description": "Calling GOV Weather Api With Chinese Nodejs Variable",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "src/索引.ts",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/索引.ts"
   },
   "dependencies": {
     "axios": "^0.27.2"

@@ -1,6 +1,6 @@
 import _axios, { AxiosInstance } from 'axios'
-import { 線上數據傳輸對象, 政府天氣應用程式介面返回格式數據傳輸對象 } from './數據傳輸對象'
-import { 政府天氣應用程式介面返回英文格式 } from './格式'
+import { 線上數據傳輸對象, 政府天氣應用程式介面返回格式數據傳輸對象 } from '數據傳輸對象'
+import { 政府天氣應用程式介面返回英文格式 } from '格式'
 
 declare global {
     interface Array<T> {

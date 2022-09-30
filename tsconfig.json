@@ -1,18 +1,25 @@
 {
-    "compilerOptions": {
-      "moduleResolution": "node",
-      "module": "commonjs",
-      "removeComments": true,
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
-      "target": "es2017",
-      "declaration": false,
-      "sourceMap": false,
-      "outDir": "./dist",
-      "baseUrl": "./",
-      "incremental": true,
-      "skipLibCheck": true
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "declaration": false,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "skipLibCheck": true,
+    "paths": {
+      "格式": [
+        "./格式/索引"
+      ],
+      "數據傳輸對象": [
+        "./數據傳輸對象/索引"
+      ]
     }
   }
-  
+}
